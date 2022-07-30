@@ -35,8 +35,8 @@ function convertCurrency(currency){
     }
  }
 document.writeln(`Степінь ${getPower(5,6)}`);
-document.writeln(`Перша літера велика ${wtf("ваСиЛь")}`);
-document.writeln(`Оплата податку ${toCountIncome(1200)}`);
-document.writeln(`Ціле число в діапазоні від N ${getRandomNumber(1, 7)}`);
-document.writeln(`Повторення літери ${countLetter("Рефрежератор","Р" )}`);
-document.writeln(`Обмін валют ${convertCurrency("120$")}`);
+document.writeln(`<br>Перша літера велика ${wtf("ваСиЛь")}`);
+document.writeln(`<br>Оплата податку ${toCountIncome(1200)}`);
+document.writeln(`<br>Ціле число в діапазоні від N ${getRandomNumber(1, 7)}`);
+document.writeln(`<br>Повторення літери ${countLetter("Рефрежератор","Р" )}`);
+document.writeln(`<br>Обмін валют ${convertCurrency("120$")}`);
